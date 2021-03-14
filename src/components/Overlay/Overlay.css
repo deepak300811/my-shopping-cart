@@ -1,0 +1,49 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #0e0e0ecb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+.pop-up-window {
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem 3rem 2rem 3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.pop-up-window > .cross-btn {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  padding: 0;
+  background: none;
+  font-weight: 300;
+}
+.pop-up-window p:nth-child(2) {
+  font-size: 2rem;
+}
+.btn-popup-group {
+  display: flex;
+  justify-content: space-between;
+}
+.shop-more {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  background: #4760ff;
+  align-self: flex-end;
+}
+.cancel {
+  background: #d03512;
+}

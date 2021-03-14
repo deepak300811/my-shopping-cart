@@ -1,0 +1,16 @@
+.foooter {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #ec81eee8;
+  padding: 0.5rem 1rem;
+  border-radius: 5px 5px 0 0;
+}
+.ftr-left {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #232b73;
+}

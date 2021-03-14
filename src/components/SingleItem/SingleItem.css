@@ -1,0 +1,90 @@
+.btn {
+  /* padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: 600; */
+}
+.btn-circle {
+  border-radius: 50%;
+  padding: 0.6rem;
+}
+.main-card {
+  max-width: 45%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto;
+  padding: 1rem;
+  border-bottom: 2px solid #000;
+}
+.main-card:last-child {
+  border-bottom: none;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-img {
+  max-width: 150px;
+}
+.right {
+  font-family: "Bitter", serif;
+  width: 100%;
+}
+.right p {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  font-weight: 400;
+}
+.left-offer {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.right p:nth-child(1) {
+  color: #276311;
+  font-weight: bold;
+}
+.right p:nth-child(4) {
+  margin-bottom: 0rem;
+}
+.right p:nth-child(5) {
+  font-weight: 600;
+}
+.button-group {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+.per-item-count {
+  display: inline-block;
+  padding: 0.4rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main-card {
+    max-width: 70%;
+  }
+}
+@media (min-width: 490px) and (max-width: 768px) {
+  .main-card {
+    max-width: 90%;
+  }
+}
+@media (max-width: 489px) {
+  .left {
+    margin-bottom: 1rem;
+  }
+  .right {
+    padding: 1rem;
+  }
+  .main-card {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
